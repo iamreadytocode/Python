@@ -1,0 +1,10 @@
+def pal(str):   
+       if str==str[::-1]:
+              return True
+       else:   
+              return False
+ 
+
+
+string="mom"
+print("The word is  a palidrom? ",pal(string))

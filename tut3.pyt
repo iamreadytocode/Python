@@ -1,0 +1,10 @@
+weight=float(input("Enter the weight :"))
+choice=input("Enter your choice?(L)bs or (k)g:")
+if choice=="K" or choice=="k":
+    pounds=weight*2.22
+    print("The weight in pounds is ",pounds," (I)bs")
+elif choice=="I" or choice=="l":
+    kilos=weight/2.22
+    print("The weight in kilos is ",kilos," Kg")
+else:
+    print("Invalid choice........")        

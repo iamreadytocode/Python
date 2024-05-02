@@ -1,0 +1,6 @@
+lis=[43,56,101,34,67,34,76,94,81]
+max=0
+for num in lis:
+    if num>max:
+        max=num
+print("The maximum number is ",max)        

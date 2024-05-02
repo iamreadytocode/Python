@@ -1,0 +1,2 @@
+string="I am alive and awake and kicking"
+print("alive" in string)

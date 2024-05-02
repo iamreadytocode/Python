@@ -1,0 +1,5 @@
+def greet_user(name):
+    print("yoroshiku ",name," san")
+
+name=input("What is your name? ")
+greet_user(name)
